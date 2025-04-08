@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4d2d2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #d14b26;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    background-color: #f05a28;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner {
+    padding: 50px; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.8);
+
+}
+
+.banner h2, 
+.banner h3, 
+.banner p {
+    margin: 10px 0;
+}
+
+aside {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.enquiry-form label {
+    margin-top: 10px;
+}
+
+.enquiry-form input,
+.enquiry-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f05a28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d14b26;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+}
+p{
+    color: #d14b26;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.highlights, .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.highlight, .course {
+    background-color: #c6bfc9;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button.know-more {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button.know-more:hover {
+    background-color: #FF4500;
+}
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+}
